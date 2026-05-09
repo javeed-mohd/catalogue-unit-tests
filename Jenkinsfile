@@ -9,5 +9,5 @@ if (env.BRANCH_NAME.equalsIgnoreCase('main')) {
     echo "Checking later"
 }
 else{
-    testPipeline(configMap)
+    nodeJSEKSPipeline(configMap)
 }
