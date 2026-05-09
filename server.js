@@ -6,7 +6,7 @@ instana({
         enabled: true
     }
 });
-// some change
+// Some change
 const { MongoClient, ObjectId } = require('mongodb');
 const bodyParser = require('body-parser');
 const express = require('express');
