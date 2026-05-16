@@ -1,7 +1,6 @@
 name: feature-pipeline
-on: 
-  push:
-  workflow_dispatch:
+on: workflow_dispatch
+  # push:
 
 jobs:
   # Job name
@@ -11,3 +10,4 @@ jobs:
     with:
       project: 'roboshop'
       component: 'catalogue'
+    secrets: inherit            # It is used while calling reusable workflows, these are used because reusable workflows cannot access secrets directly.
